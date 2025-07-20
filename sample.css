@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -25,7 +26,7 @@ body {
   color: white;
   display: grid;
   font-size: 1rem;
-  font-family: system-ui;
+  font-family: "Titillium Web", sans-serif;
   background: #102542;
   scroll-behavior: smooth;
 }
@@ -609,5 +610,37 @@ button svg g {
 }
 }
 
+
+.container {
+  justify-content: start;
+  align-items: start;
+}
+.container p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #f87060;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
 
 

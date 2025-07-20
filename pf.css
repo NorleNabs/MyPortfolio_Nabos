@@ -321,6 +321,10 @@ a:active {
   display: none; /* Chrome, Safari */
 }
 
+.SkillIconSec {
+  background-color: #f87060;
+}
+
 .contact-icon,
 .seclabel,
 .btn-dl i {

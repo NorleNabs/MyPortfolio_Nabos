@@ -105,7 +105,7 @@
   </div>
 </nav>
 
-<nav id="mobilenav" class="text-white sticky top-0 z-10 h-20 bg-gray-900 transition-colors duration-300 block md:hidden px-4">
+<nav id="mobilenav" class="text-white sticky top-0 z-10 h-30 bg-gray-900 transition-colors duration-300 block md:hidden px-4">
   <div class="flex items-center justify-between h-full">
     <h1 class="text-xl font-bold">Portfolio</h1>
     <button id="menu-toggle" class="text-white focus:outline-none">
@@ -138,13 +138,15 @@
 
 
   
-  <tion id="home" class="home px-9 pt-9 pb-0 min-h-screen">
+  <tion id="home" class="home px-9 pt-9 pb-0">
     <div class="relative max-w-8xl mx-auto">
       <div class="flex flex-col md:flex-row items-center">
         <div class="home w-full md:w-3/4 lg:w-2/3" style="border-radius: 15px; padding: 30px 30px 30px 30px;"  data-aos="fade-left">
           <p class="name text-4xl text-shadow font-bold mb-4 sm:text-4xl md:text-5xl lg:text-6xl">Norlito L. Nabos
           </p>
-          <p class="text-xl text-shadow font-bold text-gray-200 mb-10">Aspiring Web-Developer</p>
+          <div class="container">
+            <p>Aspiring  <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+          </div>
           <p class="text-gray-200 text-shadow mb-10">
             I am a Aspiring Web Developer dedicated to creating responsive, user-focused websites and applications. I enjoy building both the visual and functional aspects of web projects, transforming ideas into seamless digital experiences.
           </p>
@@ -167,7 +169,7 @@
   </tion>
 
   
-  <tion id="about" class="p-9 mb-10 min-h-screen min-h-screen">
+  <tion id="about" class="p-9 mb-10">
     <div class="about relative max-w-8xl mx-auto items-center" >
       <h2 class="text-3xl text-shadow font-bold text-center mb-2 text-azure mt-4" data-aos="fade-up" data-aos-duration="1000" style="color: azure;">About Me</h2>
       <p class="seclabel text-shadow text-center font-bold mb-6" data-aos="fade-up">My Info</p>
@@ -201,7 +203,7 @@
     
   
 
-  <tion id="skill" class=" p-5 mb-10 min-h-screen">
+  <tion id="skill" class=" p-5 mb-10">
       <div class="max-w-7xl mx-auto">
         <h2 class="text-3xl text-shadow font-bold text-center mb-2 mt-4" data-aos="fade-down" style="color: azure;">Skills / Tools</h2>
         <p class="seclabel text-shadow text-center font-bold mb-10" data-aos="fade-down">Technical</p>
@@ -243,6 +245,11 @@
             <div class="skillcon h-40 w-auto border-2 rounded-lg text-start px-4 py-4 my-4">
               <h2 class="text-3xl font-bold mb-4">Tailwind <span class="mx-4"><i class="devicon-tailwindcss-original colored"></i></span></h2>
               <p class="text-xs mb-6">Tailwind CSS is a utility-first CSS framework that lets you build custom designs directly in your HTML using small, reusable classes. It helps you create responsive and modern layouts quickly without writing custom CSS.</p>
+            </div>
+            <div class="skillcon h-40 w-auto border-2 rounded-lg text-start px-4 py-4 my-4 overflow-hidden">
+              <h2 class="text-3xl font-bold mb-4">Visual Basic <span class="mx-4"><i class="devicon-visualbasic-plain colored"></i></span></h2>
+              <p class="text-xs mb-6">Visual Basic (VB) is a programming language developed by Microsoft that is designed to be easy to learn and use. It's often used for building Windows desktop applications with graphical user interfaces, especially within the Visual Studio environment.
+              </p>
             </div>
             <div class="skillcon h-40 w-auto border-2 rounded-lg text-start px-4 py-4 my-4 overflow-hidden">
               <h2 class="text-3xl font-bold mb-4">React <span class="mx-4"><i class="devicon-react-original colored"></i></span></h2>
@@ -288,6 +295,10 @@
               <p class="text-xs mb-6">Visual Studio Code (VS Code) is a free, lightweight code editor developed by Microsoft. It supports many programming languages and features like extensions, debugging, and Git integration.</p>   
             </div>
             <div class="skillcon h-40 w-auto border-2 rounded-lg text-start px-4 py-4 my-6">
+              <h2 class="text-3xl font-bold mb-4">Visual Studio<span class="mx-2"><i class="devicon-visualstudio-plain colored"></i></span></h2>
+              <p class="text-xs mb-6">Visual Studio is an integrated development environment (IDE) developed by Microsoft. It supports multiple programming languages and provides powerful tools for building, debugging, and deploying desktop and web.</p>
+            </div>
+            <div class="skillcon h-40 w-auto border-2 rounded-lg text-start px-4 py-4 my-6">
               <h2 class="text-3xl font-bold mb-4">GitHub <span class="mx-4"><i class="devicon-github-original colored"></i></span></h2>
               <p class="text-xs mb-6">GitHub is a web-based platform for storing and managing code using Git version control. It allows developers to collaborate, track changes, and host projects publicly or privately.</p>
             </div>
@@ -306,7 +317,7 @@
   
 
   
-  <tion id="projects" class="p-5 mb-10 min-h-screen">
+  <tion id="projects" class="p-5 mb-10">
     <div class="relative max-w-8xl mx-auto md:max-w-4x;">
       <h2 class="text-3xl text-shadow font-bold text-center mb-2 text-azure" data-aos="fade-down" style="color: azure; padding-top: 5%;">Projects</h2>
       <p class="seclabel text-shadow text-center font-bold mb-4" data-aos="fade-down">My Work</p>
@@ -320,7 +331,7 @@
 
               A web-based inventory system designed to manage and track stock efficiently. It includes a built-in borrowing and return feature. 
             </p>
-            <div class="mt-2">
+            <div class="SkillIconSec mt-2 p-1 justify-self-start">
               <i class="devicon-html5-plain colored"></i>
               <i class="devicon-css3-plain colored"></i>
               <i class="devicon-bootstrap-plain colored"></i>
@@ -339,7 +350,7 @@
 
               An e-commerce website for selling clothes online, integrated with a POS system for walk-in customers. It also features...
             </p>
-            <div class="mt-2">
+            <div class="SkillIconSec mt-2 rounded p-1 justify-self-start">
               <i class="devicon-html5-plain colored"></i>
               <i class="devicon-css3-plain colored"></i>
               <i class="devicon-bootstrap-plain colored"></i>
@@ -353,11 +364,15 @@
           <div class="image"><img src="projectimg/pr-sample25.jpg" alt="pr-sample25" /></div>
           <figcaption>
             <div class="date"><span class="day">2025</span></div>
-            <h3>Down with this sort of thing</h3>
+            <h3>BHC Queuing System</h3>
             <p>
 
               I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
             </p>
+            <div class="SkillIconSec mt-2 rounded p-1 justify-self-start">
+              <i class="devicon-visualbasic-plain colored"></i>
+              <i class="devicon-mysql-original colored"></i>
+            </div>
           </figcaption>
           <a href="#"></a>
         </figure>
@@ -385,7 +400,7 @@
   
   
 
-<tion id="contact" class="p-9 mb-10 min-h-screen">
+<tion id="contact" class="p-9 mb-10">
     <div class="relative max-w-10xl mx-auto">
     <h2 class="text-3xl text-shadow font-bold text-center mb-2 text-azure mt-4" data-aos="fade-up" data-aos-duration="1000" style="color: azure;">Contact Me</h2>
     <p class="seclabel text-shadow text-center font-bold mb-6" data-aos="fade-up">Get In Touch</p>
@@ -464,7 +479,7 @@
   
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  <script type="module" src="/src/main.jsx"></script>
+  <script src="index.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
@@ -474,27 +489,7 @@
       once: false,
     });
 
-    const navButtons = document.querySelectorAll('.nav-btn');
 
-navButtons.forEach(btn => {
-  btn.addEventListener('click', function () {
-    const targettion = document.querySelector(this.dataset.target);
-    if (targettion) {
-      const yOffset = -90; 
-      const y = targettion.getBoundingClientRect().top + window.pageYOffset + yOffset;
-
-      window.scrollTo({ top: y, behavior: 'smooth' });
-    }
-  });
-});
-
-
-
-
-
-  
-
-  
 
 
 
@@ -554,56 +549,21 @@ navButtons.forEach(btn => {
 
   });
 
+function downloadFile() {
+  const link = document.createElement("a");
+  link.href = "PersonalFiles/Simple_Resume_Nabos.pdf"; // your file path
+  link.download = "NorlitoNabos_Resume.pdf"; // optional: set default download name
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
 
+var swiper = new Swiper(".mySwiper", {
+  effect: "cards",
+  grabCursor: true,
+});
 
- function downloadFile() {
-    const link = document.createElement('a');
-    link.href = 'PersonalFiles/Simple_Resume_Nabos.pdf'; // your file path
-    link.download = 'NorlitoNabos_Resume.pdf';   // optional: set default download name
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }
-
-
-
-
-
-
-
-
- var swiper = new Swiper(".mySwiper", {
-      effect: "cards",
-      grabCursor: true,
-    });
-
-
-
-
-(function () {
-      emailjs.init("DUCtiLaGeIZlVzuhT"); // from EmailJS dashboard
-    })();
-
-    document.getElementById("emailform").addEventListener("submit", function (e) {
-        e.preventDefault();
-
-        emailjs.sendForm("service_kcmu80x", "template_smclm8a", this).then(
-          () => {
-            alert("Message sent!");
-          },
-          (error) => {
-            alert("Failed to send message: " + error);
-          }
-        );
-      });
-
-
- const toggle = document.getElementById("menu-toggle");
-    const menu = document.getElementById("mobile-menu");
-
-    toggle.addEventListener("click", () => {
-      menu.classList.toggle("hidden");
-    });
+ 
 </script>
 
 
