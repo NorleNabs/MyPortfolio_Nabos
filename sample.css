@@ -343,6 +343,15 @@ button svg g {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+@media (max-width: 640px) {
+  .snip1527 {
+     max-width: 210px;
+     min-width: 150px;
+  }
+}
+
+
 @layer properties {
   @property --elh {
     /* eye left height   */
@@ -548,6 +557,12 @@ button svg g {
         scale: var(--mw, 1) var(--mh, 1);
       }
     }
+  }
+}
+
+@media (max-width: 640px) {
+  .ai-bot {
+    scale: 2.4;
   }
 }
 
@@ -791,4 +806,11 @@ button svg g {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 640px) {
+  .containerspin {
+     --size: 100px;
+  }
+}
+
 
