@@ -344,12 +344,7 @@ button svg g {
   transform: scale(1.1);
 }
 
-@media (max-width: 640px) {
-  .snip1527 {
-     max-width: 210px;
-     min-width: 150px;
-  }
-}
+
 
 
 @layer properties {
@@ -560,11 +555,7 @@ button svg g {
   }
 }
 
-@media (max-width: 640px) {
-  .ai-bot {
-    scale: 2.4;
-  }
-}
+
 
 @layer animations {
   @keyframes blink {
@@ -659,6 +650,8 @@ button svg g {
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+
+
 
 
 
@@ -810,6 +803,19 @@ button svg g {
 @media (max-width: 640px) {
   .containerspin {
      --size: 100px;
+  }
+
+  .snip1527 {
+     max-width: 210px;
+     min-width: 150px;
+  }
+
+  .ai-bot {
+    scale: 2.4;
+  }
+
+  .container p{
+    font-size: 1rem
   }
 }
 

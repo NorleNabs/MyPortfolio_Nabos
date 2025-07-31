@@ -424,3 +424,7 @@ span::after {
   border-bottom: 2px solid;
   border-color: #f87060;
 }
+
+.softicon {
+  color: #f87060;
+}
