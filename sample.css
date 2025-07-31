@@ -401,12 +401,16 @@ button svg g {
   --c: white;
   --c2: #9ae3dc;
   --c3: magenta;
+  
+  
+  --primary-color:  #102542;
+  --secondary-color: #f87060;
 }
 
 .ai-bot {
   scale: 4.2;
   width: 34px;
-  aspect-ratio: 1;
+  
   margin-top: 5rem;
   display: grid;
   place-items: center;
@@ -642,6 +646,8 @@ button svg g {
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+
+
 
 .containerspin {
   --size: 120px;
