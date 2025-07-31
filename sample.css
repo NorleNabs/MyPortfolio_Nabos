@@ -652,7 +652,7 @@ button svg g {
   --offset: 30px;
   --duration: 30s;
 
-  position: relative;
+  position: center;
   aspect-ratio: 1 / 1;
   pointer-events: none;
   display: inline-grid;
@@ -753,7 +753,6 @@ button svg g {
     &::before {
       --scale: 4;
       --translate: calc(-50% / var(--scale));
-
       border-width: 2px;
       border-radius: inherit;
       border-color: var(--secondary-color);
