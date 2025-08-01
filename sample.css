@@ -131,60 +131,7 @@ button svg g {
   }
 }
 
-#swiper1 {
-  width: 240px;
-  height: 320px;
-}
 
-#swiperslide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-  font-size: 22px;
-  font-weight: bold;
-  color: #000000;
-}
-
-#swiperslide:nth-child(1n) {
-  background-color: rgb(255, 255, 255);
-}
-
-#swiperslide:nth-child(2n) {
-  background-color: rgb(255, 255, 255);
-}
-
-#swiperslide:nth-child(3n) {
-  background-color: rgb(255, 255, 255);
-}
-
-#swiperslide:nth-child(4n) {
-  background-color: rgb(255, 255, 255);
-}
-
-#swiperslide:nth-child(5n) {
-  background-color: rgb(255, 255, 255);
-}
-
-#swiperslide:nth-child(6n) {
-  background-color: rgb(255, 255, 255);
-}
-
-#swiperslide:nth-child(7n) {
-  background-color: rgb(204, 215, 210);
-}
-
-#swiperslide:nth-child(8n) {
-  background-color: rgb(255, 255, 255);
-}
-
-#swiperslide:nth-child(9n) {
-  background-color: rgb(255, 255, 255);
-}
-
-#swiperslide:nth-child(10n) {
-  background-color: rgb(255, 255, 255);
-}
 
 .contactform {
   background: radial-gradient(
