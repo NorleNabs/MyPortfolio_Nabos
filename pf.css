@@ -244,13 +244,10 @@ span::after {
 }
 
 .btn-1 {
-  font-size: 18px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  display: inline-block;
-  text-align: center;
   font-weight: bold;
-  padding: 0.7em 2em;
+  padding: 0.2em 0.6em;
   border: 3px solid #f87060;
   border-radius: 10px;
   position: relative;
@@ -264,14 +261,14 @@ span::after {
 .btn-1:before {
   transition: 0.5s all ease;
   position: absolute;
-  border-radius: 10px;
+  border-radius: 6px;
   top: 0;
   left: 50%;
   right: 50%;
   bottom: 0;
   opacity: 0;
   content: "";
-  background-color: #0d1926;
+  background-color: #f87060;
   z-index: -1;
 }
 
@@ -314,7 +311,7 @@ span::after {
 
 .btn-send span {
   display: block;
-  margin-left: 0.3em;
+  margin-left: 0.7em;
   transition: all 0.3s ease-in-out;
 }
 
@@ -329,7 +326,7 @@ span::after {
 }
 
 .btn-send:hover svg {
-  transform: translateX(1.4em) rotate(45deg) scale(1.1);
+  transform: translateX(2.4em) rotate(45deg) scale(1.1);
 }
 
 .btn-send:hover span {

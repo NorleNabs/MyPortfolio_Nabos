@@ -577,7 +577,7 @@ button svg g {
   overflow: hidden;
 }
 .container p span.typed-text {
-  font-weight: normal;
+  font-weight: bold;
   color: #f87060;
 }
 .container p span.cursor {
