@@ -140,6 +140,20 @@
 
   
   <tion id="home" class="home px-9 pt-9 pb-0">
+    <div class="area hidden lg:block" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
     <div class="relative max-w-8xl mx-auto">
       <div class="flex flex-col md:flex-row items-center">
         <div class="home w-full md:w-3/4 lg:w-2/3" style="border-radius: 15px; padding: 30px 30px 30px 30px;"  data-aos="fade-up">
@@ -156,9 +170,9 @@
               <button onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })" class="btn-1 flex justify-self-start mx-6 " ><span class="btn btn-more text-xs lg:text-lg"><i class="bi bi-person-fill"></i>About Me</span></button>
             </div>
             <div class="flex gap-[20px] flex-col items-center lg:block">
-              <span class="mx-2 text-xs md:text-sm lg:text-lg "><i class="home-icon bi bi-messenger text-xs"></i> -nabos.norle3</span>
-              <span class="mx-2 text-xs md:text-sm lg:text-lg"><i class="home-icon bi bi-instagram text-xs"></i> -Norle Nabos</span>
-              <span class="mx-2 text-xs md:text-sm lg:text-lg"><i class="home-icon bi bi-telegram text-xs"></i></i> -NorleNabs</span>
+              <span class="mx-2 text-xs md:text-sm lg:text-lg "><i class="home-icon bi bi-messenger text-xs"></i> -nabos.norle.5</span>
+              <span class="mx-2 text-xs md:text-sm lg:text-lg"><i class="home-icon bi bi-instagram text-xs"></i> -@nabosnorle</span>
+              <span class="mx-2 text-xs md:text-sm lg:text-lg"><i class="home-icon bi bi-telegram text-xs"></i></i> -NorleNabos</span>
             </div>
           </div>
         </div>
@@ -325,19 +339,67 @@
             </div>
           </div>
 
-          <div class="grid grid-cols-[repeat(4,1fr)] grid-rows-[repeat(1,1fr)] gap-y-[5px] gap-x-[10px] lg:block lg:grid-rows-4 items-center justify-items-center content-center">
-            <button class="w-15 h-20  text-center flex justify-items-center align-items items-center lg:w-60 h-20" data-aos="fade-down" data-aos-delay="200">
-              <a type="button" class="front-end flex justify-center items-center btn-skill text-xs border-2 font-bold tracking-normal rounded-lg  px-4 py-2 w-20 h-10  hover:tracking-widest transition-all duration-500 lg:text-2xl w-60 h-300" href=""><span class="mr-1"><i class="bi bi-code hidden lg:block"></i></span>Front-End</a>
-            </button>
-            <button class="w-15 h-20  text-center  flex justify-items-center items-center lg:w-60 h-30" data-aos="fade-down" data-aos-delay="400">
-              <a type="button" class="back-end flex justify-center items-center btn-skill text-xs border-2 font-bold tracking-normal rounded-lg  px-4 py-2 w-20 h-10  hover:tracking-widest transition-all duration-500 lg:text-2xl w-60 h-30" href=""><span class="mr-1"><i class="bi bi-code-slash hidden lg:block"></i></span>Back-End</a>
-            </button>
-            <button class="w-15 h-20  text-center flex justify-items-center items-center lg:w-60 h-30" data-aos="fade-down" data-aos-delay="600">
-              <a type="button" class="tools flex justify-center items-center btn-skill text-xs border-2 tracking-normal rounded-lg  px-2 py-2 w-20 h-10  hover:tracking-widest transition-all duration-500 lg:text-2xl w-60 h-300 " href=""><span class="mr-1"><i class="bi bi-wrench hidden lg:block"></i></span>Tools</a>
-            </button>
-            <button class="w-15 h-20  text-center flex justify-items-center items-center lg:w-60 h-30" data-aos="fade-down" data-aos-delay="800">
-              <a type="button" class="others flex justify-center items-center btn-skill text-xs border-2 tracking-normal rounded-lg  px-4 py-2 w-20 h-10 hover:tracking-widest transition-all duration-500 lg:text-2xl w-60 h-300 " href=""><span class="mr-1"><i class="bi bi-person-check-fill hidden lg:block"></i></span>Soft Skills</a>
-            </button>
+          <div class="grid grid-cols-[repeat(1,1fr)] grid-rows-[repeat(1,1fr)] gap-y-[5px] gap-x-[10px] mt-5 lg:block lg:grid-rows-4 items-center justify-items-center content-center">
+             <div class="radio-input">
+                <div class="glass">
+                  <div class="glass-inner"></div>
+                </div>
+                <div class="selector">
+                  <div class="choice front-end">
+                    <div>
+                      <input
+                        class="choice-circle"
+                        checked="true"
+                        value="one"
+                        name="number-selector"
+                        id="one"
+                        type="radio"
+                      />
+                      <div class="ball"></div>
+                    </div>
+                    <label for="one" class="choice-name">Front-End</label>
+                  </div>
+                  <div class="choice back-end">
+                    <div>
+                      <input
+                        class="choice-circle"
+                        value="two"
+                        name="number-selector"
+                        id="two"
+                        type="radio"
+                      />
+                      <div class="ball"></div>
+                    </div>
+                    <label for="two" class="choice-name">Back-End</label>
+                  </div>
+                  <div class="choice tools">
+                    <div>
+                      <input
+                        class="choice-circle"
+                        value="three"
+                        name="number-selector"
+                        id="three"
+                        type="radio"
+                      />
+                      <div class="ball"></div>
+                    </div>
+                    <label for="three" class="choice-name">Tools</label>
+                  </div>
+                  <div class="choice others">
+                    <div>
+                      <input
+                        class="choice-circle"
+                        value="three"
+                        name="number-selector"
+                        id="three"
+                        type="radio"
+                      />
+                      <div class="ball"></div>
+                    </div>
+                    <label for="three" class="choice-name">Soft Skills</label>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -486,21 +548,21 @@
         </form>
       </div>
       <div class="p-6" data-aos="fade-down">
-        <div class="grid grid-cols-2 gap-y-[10px] gap-x-[10px] md:block md:grid-rows-3 lg:block lg:grid-rows-3 justify-items-center justify-self-center">
+        <div class="grid grid-cols-2 gap-y-[10px] gap-x-[40px] md:block md:grid-rows-3 lg:block lg:grid-rows-3 justify-items-center justify-self-center">
           <div class="contact-item1 w-50 h-30 flex flex-col justify-center items-center text-center py-3 sm:mx-0 border-0" style="color: rgb(255, 255, 255);">
             <span class="contact-icon text-3xl text-shadow"><i class="bi bi-envelope-at-fill"></i></span>
             <p>Email</p>
             <p>norlitonabos3@gmail.com</p>
           </div>
-          <div class="contact-item2 w-50 h-30 flex flex-col justify-center items-center text-center py-3 sm:mx-0 border-0" style="color: rgb(255, 255, 255);">
+          <div class="contact-item2 w-50 h-30 flex flex-col justify-center items-center text-center py-3 sm:mx-2 border-0" style="color: rgb(255, 255, 255);">
             <span class="contact-icon text-3xl text-shadow"><i class="bi bi-telephone-fill"></i></span>
             <p>Phone</p>
             <p>09298414359</p>
           </div>
           <div class="contact-item3 w-50 h-30 flex flex-col justify-center items-center text-center py-3 sm:mx-0 border-0 hidden lg:block" style="color: rgb(255, 255, 255);">
-            <span class="contact-icon text-3xl text-shadow"><i class="bi bi-linkedin"></i></span>
-            <p>LinkedIn</p>
-            <p>Norlito Nabos</p>
+            <span class="contact-icon text-3xl text-shadow"><i class="bi bi-messenger p-2 rounded"></i></span>
+            <p>Messenger</p>
+            <p>@nabos.norle.5</p>
           </div>
         </div>
       </div>
@@ -514,12 +576,12 @@
   <footer class="bg-gray-800 text-white text-center p-3 mt-6 h-[45vh]" id="footer">
     <div class="relative max-h-4xl"></div>
       <p class="text-azure" style="color: white;" data-aos="up">© 2025 Norlito L. Nabos | All Rights Reserved</p>
-      <div class="grid grid-cols-[30%_repeat(2,1fr)] grid-rows-[1fr] gap-y-[10px] gap-x-[10px]">
+      <div class="grid grid-cols-[30%_repeat(2,1fr)] grid-rows-[1fr] gap-y-[10px] gap-x-[10px]" id="footer-content">
         <div class="block grid-cols-[repeat(3,1fr)] grid-rows-[repeat(3,1fr)] gap-y-[10px] gap-x-[10px] justify-self-center mt-6">
           <h2 class="text-md font-bold my-4 sm:text-1xl md:text-2xl lg:text-4xl">Norlito Nabos</h2>
-          <div class="footericon text-xs justify-self-start mb-5 lg:text-lg"><i class="bi bi-messenger p-2 rounded"></i> - nabos.norle.3</div>
-          <div class="footericon text-xs justify-self-start mb-5 lg:text-lg"><i class="bi bi-telegram p-2 rounded"></i> - Norle Nabos</div>
-          <div class="footericon text-xs justify-self-start mb-5 lg:text-lg"><i class="bi bi-linkedin p-2 rounded"></i> - Norlito Nabos</div>
+          <div class="footericon text-xs justify-self-start mb-5 lg:text-lg"><a class="font-normal cursor-pointer" id="fblink"><i class="bi bi-facebook p-2 rounded"></i> - Norle Nabos</a></div>
+          <div class="footericon text-xs justify-self-start mb-5 lg:text-lg"><a class="font-normal cursor-pointer" id="instalink"><i class="bi bi-instagram p-2 rounded"></i> - nabosnorle</a></div>
+          <div class="footericon text-xs justify-self-start mb-5 lg:text-lg"><a class="font-normal cursor-pointer" id="githublink"><i class="bi bi-github p-2 rounded"></i> - NorleNabs</a></div>
         </div>
         <div class="block grid-cols-[repeat(3,1fr)] grid-rows-[repeat(3,1fr)] gap-y-[10px] gap-x-[10px] justify-self-center mt-7">
           <h3 class="text-lg font-bold my-4 sm:text-xl md:text-1xl lg:text-2xl">Quick Links</h3>
@@ -595,26 +657,26 @@ navButtons.forEach(btn => {
    
 
     const skillBtn = document.querySelectorAll('.btn-skill');
-    skillBtn.forEach(btn =>{
-      btn.addEventListener('click', function (e)  {
-        e.preventDefault()
-        frontEndsec.classList.add("hidden");
-        backEndSec.classList.add("hidden");
-        otherSec.classList.add('hidden')
-        toolSec.classList.add("hidden");
+    document.querySelectorAll(".choice").forEach(choice => {
+  choice.addEventListener("click", () => {
+    // First hide all sections
+    frontEndsec.classList.add("hidden");
+    backEndSec.classList.add("hidden");
+    toolSec.classList.add("hidden");
+    otherSec.classList.add("hidden");
 
-        if(btn.classList.contains("front-end")) {
-          frontEndsec.classList.remove("hidden");
-        } else if (btn.classList.contains("back-end")) {
-          backEndSec.classList.remove('hidden');
-        } else if (btn.classList.contains('tools')) {
-          toolSec.classList.remove('hidden')
-        } else if (btn.classList.contains('others')) {
-          otherSec.classList.remove('hidden')
-        }
-
-      });
-    });
+    // Then show based on clicked choice
+    if (choice.classList.contains("front-end")) {
+      frontEndsec.classList.remove("hidden");
+    } else if (choice.classList.contains("back-end")) {
+      backEndSec.classList.remove("hidden");
+    } else if (choice.classList.contains("tools")) {
+      toolSec.classList.remove("hidden");
+    } else if (choice.classList.contains("others")) {
+      otherSec.classList.remove("hidden");
+    }
+  });
+});
 
 
 
@@ -632,7 +694,27 @@ function downloadFile() {
 }
 
 
+document.getElementById("fblink").addEventListener("click", function() {
+    openInNewTab("https://www.facebook.com/share/1YtbJPJxJe/");
+  });
 
+document.getElementById("githublink").addEventListener("click", function() {
+    openInNewTab("https://github.com/NorleNabs");
+  });
+
+document.getElementById("instalink").addEventListener("click", function() {
+    openInNewTab("https://www.instagram.com/nabosnorle");
+  });
+
+function openInNewTab(url) {
+    const newTab = window.open(url, "_blank");
+    if (newTab) {
+      newTab.focus();
+    }
+  }
+
+
+  
  
 </script>
 
